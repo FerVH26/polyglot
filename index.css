@@ -1,0 +1,67 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrito{
+    width: 5rem  ;
+    height: 5rem;
+    border: 2px solid black;
+    transform: rotate(0deg);
+    position: relative;
+    display: block;
+    
+}
+.cont{
+    width: 10rem  ;
+    height: 10rem;
+    
+}
+.columna{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.select{
+    height: 2rem;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+
+}
+.inc{
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.numero{
+    height: 2rem;
+    width: 5rem;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inc img{
+    height: 50%;
+    width: auto;
+}
+
+.inc:hover{
+    background-color: gold;
+}
